@@ -26,6 +26,12 @@ class CountryCodePicker  {
      });
    }
 
+   static  void getFlags(){
+     elements.forEach((element) {
+       debugPrint(element.name.toString());
+     });
+   }
+
 
 }
 
