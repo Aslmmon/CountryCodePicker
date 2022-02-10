@@ -24,9 +24,9 @@ class CountryCode {
 
   CountryCode({
     this.name,
-    this.flagUri,
+    this.flagUri='flags/eg.png',
     this.code,
-    this.dialCode,
+    this.dialCode="+20",
   });
 
   @Deprecated('Use `fromCountryCode` instead.')
