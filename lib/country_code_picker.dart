@@ -25,12 +25,14 @@ class CountryCodePicker  {
        debugPrint(element.name.toString());
      });
    }
-
+   static  CountryCode getFirstCountry(){
+    return elements[1];
+   }
 
 
    static  void getFlags(){
      elements.forEach((element) {
-       debugPrint(element.name.toString());
+       debugPrint(element.flagUri.toString());
      });
    }
 

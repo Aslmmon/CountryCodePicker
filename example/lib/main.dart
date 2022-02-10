@@ -103,6 +103,11 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
+              Image.asset(
+                CountryCodePicker.getFirstCountry().flagUri.toString(),
+                width: 25,
+                height: 25,
+              )
             ],
           ),
         ),
@@ -112,7 +117,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
-    CountryCodePicker.printCountries();
+    super.initState();
+
+
+    CountryCodePicker.getFlags();
   }
 }
 

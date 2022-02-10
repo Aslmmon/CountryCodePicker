@@ -24,7 +24,7 @@ class CountryCode {
 
   CountryCode({
     this.name,
-    this.flagUri='flags/eg.png',
+    this.flagUri="packages/country_code_picker/flags/eg",
     this.code,
     this.dialCode="+20",
   });
@@ -59,7 +59,7 @@ class CountryCode {
       name: json['name'],
       code: json['code'],
       dialCode: json['dial_code'],
-      flagUri: 'flags/${json['code'].toLowerCase()}.png',
+      flagUri: 'packages/country_code_picker/flags/${json['code'].toLowerCase()}.png',
     );
   }
 
