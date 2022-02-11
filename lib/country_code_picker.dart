@@ -26,7 +26,7 @@ class CountryCodePicker  {
      });
    }
    static  CountryCode getFirstCountry(){
-    return elements[1];
+    return elements[0];
    }
 
 
