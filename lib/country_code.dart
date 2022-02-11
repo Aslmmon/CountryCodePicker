@@ -24,7 +24,7 @@ class CountryCode {
 
   CountryCode({
     this.name,
-    this.flagUri="packages/country_code_picker/flags/eg",
+    this.flagUri="packages/country_code_picker/flags/eg.png",
     this.code,
     this.dialCode="+20",
   });
