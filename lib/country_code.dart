@@ -3,6 +3,7 @@ import 'package:country_code_picker/country_codes.dart';
 import 'package:country_code_picker/country_localizations.dart';
 import 'package:flutter/cupertino.dart';
 
+
 mixin ToAlias {}
 
 @deprecated
@@ -24,7 +25,7 @@ class CountryCode {
 
   CountryCode({
     this.name,
-    this.flagUri="packages/country_code_picker/flags/eg.png",
+    this.flagUri='flags/eg.png',
     this.code,
     this.dialCode="+20",
   });
@@ -59,7 +60,7 @@ class CountryCode {
       name: json['name'],
       code: json['code'],
       dialCode: json['dial_code'],
-      flagUri: 'packages/country_code_picker/flags/${json['code'].toLowerCase()}.png',
+      flagUri: 'flags/${json['code'].toLowerCase()}.png',
     );
   }
 

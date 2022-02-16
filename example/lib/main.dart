@@ -104,7 +104,8 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Image.asset(
-                CountryCodePicker.getFirstCountry().flagUri.toString(),
+                "flags/eg.png",
+                package: 'country_code_picker',
                 width: 25,
                 height: 25,
               )
