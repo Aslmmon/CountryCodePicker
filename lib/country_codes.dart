@@ -5,6 +5,11 @@ const List<Map<String, String>> codes = [
     "dial_code": "+93",
   },
   {
+    "name": "Albania",
+    "code": "AL",
+    "dial_code": "+355",
+  },
+  {
     "name": "Algeria",
     "code": "DZ",
     "dial_code": "+213",
@@ -43,6 +48,11 @@ const List<Map<String, String>> codes = [
     "name": "Argentina",
     "code": "AR",
     "dial_code": "+54",
+  },
+  {
+    "name": "Armenia",
+    "code": "AM",
+    "dial_code": "+374",
   },
   {
     "name": "Aruba",
@@ -85,6 +95,11 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1246",
   },
   {
+    "name": "Belarus",
+    "code": "BY",
+    "dial_code": "+375",
+  },
+  {
     "name": "Belgium",
     "code": "BE",
     "dial_code": "+32",
@@ -103,6 +118,11 @@ const List<Map<String, String>> codes = [
     "name": "Bermuda",
     "code": "BM",
     "dial_code": "+1441",
+  },
+  {
+    "name": "Bhutan",
+    "code": "BT",
+    "dial_code": "+975",
   },
   {
     "name": "Bolivia",
@@ -135,7 +155,7 @@ const List<Map<String, String>> codes = [
     "dial_code": "+246",
   },
   {
-    "name": "Brueni",
+    "name": "Brunei",
     "code": "BN",
     "dial_code": "+673",
   },
@@ -148,6 +168,11 @@ const List<Map<String, String>> codes = [
     "name": "Burundi",
     "code": "BI",
     "dial_code": "+257",
+  },
+  {
+    "name": "Bulgaria",
+    "code": "BG",
+    "dial_code": "+359",
   },
   {
     "name": "Cambodia",
@@ -175,9 +200,24 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1345",
   },
   {
+    "name": "Central African Republic",
+    "code": "CF",
+    "dial_code": "+236",
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "dial_code": "+235",
+  },
+  {
     "name": "Chile",
     "code": "CL",
     "dial_code": "+56",
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "dial_code": "+86",
   },
   {
     "name": "Christmas Island",
@@ -195,7 +235,22 @@ const List<Map<String, String>> codes = [
     "dial_code": "+57",
   },
   {
-    "name": " Republic of the Congo",
+    "name": "Comoros",
+    "code": "KM",
+    "dial_code": "+269",
+  },
+  {
+    "name": "Cyprus",
+    "code": "CY",
+    "dial_code": "+357",
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "dial_code": "+420",
+  },
+  {
+    "name": "Republic of the Congo",
     "code": "CG",
     "dial_code": "+242",
   },
@@ -250,6 +305,16 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1",
   },
   {
+    "name": "East Timor",
+    "code": "TL",
+    "dial_code": "+670",
+  },
+  {
+    "name": "Eritrea",
+    "code": "ER",
+    "dial_code": "+291",
+  },
+  {
     "name": "Ecuador",
     "code": "EC",
     "dial_code": "+593",
@@ -265,9 +330,34 @@ const List<Map<String, String>> codes = [
     "dial_code": "+503",
   },
   {
+    "name": "Estonia",
+    "code": "EE",
+    "dial_code": "+372",
+  },
+  {
+    "name": "Eswatini",
+    "code": "SZ",
+    "dial_code": "+268",
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "dial_code": "+251",
+  },
+  {
+    "name": "Finland",
+    "code": "FI",
+    "dial_code": "+358",
+  },
+  {
+    "name": "Georgia",
+    "code": "GE",
+    "dial_code": "+995",
+  },
+  {
     "name": "Guinea",
     "code": "GQ",
-    "dial_code": "+240",
+    "dial_code": "+224",
   },
   {
     "name": "Falkland Islands",
@@ -360,9 +450,19 @@ const List<Map<String, String>> codes = [
     "dial_code": "+592",
   },
   {
+    "name": "Haiti",
+    "code": "HT",
+    "dial_code": "+509",
+  },
+  {
     "name": "Heard Island and McDonald Islands",
     "code": "HM",
     "dial_code": "+0",
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "dial_code": "+36",
   },
   {
     "name": "Vatican",
@@ -380,9 +480,19 @@ const List<Map<String, String>> codes = [
     "dial_code": "+852",
   },
   {
+    "name": "Iceland",
+    "code": "IS",
+    "dial_code": "+354",
+  },
+  {
     "name": "Indonesia",
     "code": "ID",
     "dial_code": "+62",
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "dial_code": "+91",
   },
   {
     "name": "Iran",
@@ -425,6 +535,11 @@ const List<Map<String, String>> codes = [
     "dial_code": "+962",
   },
   {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "dial_code": "+7",
+  },
+  {
     "name": "Kenya",
     "code": "KE",
     "dial_code": "+254",
@@ -440,7 +555,7 @@ const List<Map<String, String>> codes = [
     "dial_code": "+82",
   },
   {
-    "name": "Kosoves",
+    "name": "Kosovo",
     "code": "XK",
     "dial_code": "+383",
   },
@@ -450,9 +565,19 @@ const List<Map<String, String>> codes = [
     "dial_code": "+965",
   },
   {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "dial_code": "+996",
+  },
+  {
     "name": "Latvia",
     "code": "LV",
     "dial_code": "+371",
+  },
+  {
+    "name": "Laos",
+    "code": "LA",
+    "dial_code": "+856",
   },
   {
     "name": "Lebanon",
@@ -570,7 +695,17 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1664",
   },
   {
-    "name": "Morroco",
+    "name": "Mongolia",
+    "code": "MN",
+    "dial_code": "+976",
+  },
+  {
+    "name": "Montenegro",
+    "code": "ME",
+    "dial_code": "+382",
+  },
+  {
+    "name": "Morocco",
     "code": "MA",
     "dial_code": "+212",
   },
@@ -595,7 +730,7 @@ const List<Map<String, String>> codes = [
     "dial_code": "+674",
   },
   {
-    "name": "Nederland",
+    "name": "Netherlands",
     "code": "NL",
     "dial_code": "+31",
   },
@@ -605,9 +740,24 @@ const List<Map<String, String>> codes = [
     "dial_code": "+599",
   },
   {
+    "name": "Nepal",
+    "code": "NP",
+    "dial_code": "+977",
+  },
+  {
     "name": "Nouvelle-Calédonie",
     "code": "NC",
     "dial_code": "+687",
+  },
+  {
+    "name": "North Macedonia",
+    "code": "MK",
+    "dial_code": "+389",
+  },
+  {
+    "name": "Norway",
+    "code": "NO",
+    "dial_code": "+47",
   },
   {
     "name": "New Zealand",
@@ -648,6 +798,11 @@ const List<Map<String, String>> codes = [
     "name": "Norge",
     "code": "NO",
     "dial_code": "+47",
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "dial_code": "+850",
   },
   {
     "name": "Oman",
@@ -740,6 +895,11 @@ const List<Map<String, String>> codes = [
     "dial_code": "+250",
   },
   {
+    "name": "Saint Kitts and Nevis",
+    "code": "KN",
+    "dial_code": "+1869",
+  },
+  {
     "name": "Saint Lucia",
     "code": "LC",
     "dial_code": "+1758",
@@ -753,6 +913,11 @@ const List<Map<String, String>> codes = [
     "name": "Saint-Pierre-et-Miquelon",
     "code": "PM",
     "dial_code": "+508",
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "code": "ST",
+    "dial_code": "+239",
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -773,6 +938,11 @@ const List<Map<String, String>> codes = [
     "name": "Saudi Arabia",
     "code": "SA",
     "dial_code": "+966",
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "dial_code": "+381",
   },
   {
     "name": "Senegal",
@@ -851,8 +1021,13 @@ const List<Map<String, String>> codes = [
   },
   {
     "name": "Switzerland",
-    "code": "SZ",
-    "dial_code": "+268",
+    "code": "CH",
+    "dial_code": "+41",
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "dial_code": "+46",
   },
   {
     "name": "Syria",
@@ -888,6 +1063,11 @@ const List<Map<String, String>> codes = [
     "name": "Trinidad and Tobago",
     "code": "TT",
     "dial_code": "+1868",
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "dial_code": "+992",
   },
   {
     "name": "Tunisia",
@@ -943,6 +1123,11 @@ const List<Map<String, String>> codes = [
     "name": "Uzbekiston",
     "code": "UZ",
     "dial_code": "+998",
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "dial_code": "+380",
   },
   {
     "name": "Vanuatu",
